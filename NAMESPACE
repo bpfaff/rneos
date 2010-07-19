@@ -1,0 +1,9 @@
+##
+## Export of functions
+##
+export(CreateNeosComm)
+##
+## Export of S4-classes
+##
+exportClasses(NeosComm)
+
