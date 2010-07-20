@@ -5,5 +5,9 @@ export(CreateNeosComm)
 ##
 ## Export of S4-classes
 ##
-exportClasses(NeosComm)
+exportClasses(NeosComm, NeosAns)
+##
+## Export of S4-methods
+##
+exportMethods(show)
 
