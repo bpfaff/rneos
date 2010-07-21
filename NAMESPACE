@@ -1,7 +1,7 @@
 ##
 ## Export of functions
 ##
-export(CreateNeosComm, Nwelcome)
+export(CreateNeosComm, Nhelp, Nwelcome)
 ##
 ## Export of S4-classes
 ##
