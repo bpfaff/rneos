@@ -1,6 +1,6 @@
 Package: rneos
-Version: 0.0-2
-Date: 2010-07-20
+Version: 0.0-3
+Date: 2010-07-21
 Title: rneos: XML-RPC Interface to NEOS
 Author: Bernhard Pfaff <bernhard.pfaff@pfaffikus.de>
 Maintainer: Bernhard Pfaff <bernhard@pfaffikus.de>
