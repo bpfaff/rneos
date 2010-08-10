@@ -4,6 +4,7 @@
 export(CreateNeosComm,
        NemailHelp,
        Nhelp,
+       NlistAllSolvers,
        Nping,
        NprintQueue,
        Nversion,
