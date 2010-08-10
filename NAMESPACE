@@ -1,7 +1,13 @@
 ##
 ## Export of functions
 ##
-export(CreateNeosComm, NemailHelp, Nhelp, Nping, Nversion, Nwelcome)
+export(CreateNeosComm,
+       NemailHelp,
+       Nhelp,
+       Nping,
+       NprintQueue,
+       Nversion,
+       Nwelcome)
 ##
 ## Export of S4-classes
 ##
