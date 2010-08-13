@@ -8,8 +8,7 @@
   returns an object of class \code{NeosAns}. 
 }
 \usage{
-NlistSolversInCategory(category, convert = TRUE, nc = CreateNeosComm(),
-                       checkcategory = FALSE)
+NlistSolversInCategory(category, convert = TRUE, nc = CreateNeosComm())
 }
 
 \arguments{
@@ -20,8 +19,6 @@ NlistSolversInCategory(category, convert = TRUE, nc = CreateNeosComm(),
   \item{nc}{Object of class \code{NeosComm}: By default, this argument
     is set by calling \code{CreateNeosComm()} and thereby using the
     default values of this function.}
-  \item{checkcategory}{Logical, test whether the provided value for
-  \code{category} is valid. The default is \code{FALSE}.}
 }
 
 \value{
@@ -45,7 +42,7 @@ NlistSolversInCategory(category, convert = TRUE, nc = CreateNeosComm(),
 
 \examples{
 \dontrun{
-NlistSolversInCategory()
+NlistSolversInCategory(category = "go")
 }
 }
 \keyword{IO}
