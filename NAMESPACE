@@ -1,4 +1,8 @@
 ##
+## Import directives
+##
+import(XML)
+##
 ## Export of functions
 ##
 export(CreateNeosComm,
@@ -14,7 +18,7 @@ export(CreateNeosComm,
 ##
 ## Export of S4-classes
 ##
-exportClasses(NeosComm, NeosAns)
+exportClasses(NeosComm, NeosAns, NeosXml)
 ##
 ## Export of S4-methods
 ##
