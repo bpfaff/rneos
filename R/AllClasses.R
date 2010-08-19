@@ -6,3 +6,8 @@ setClass("NeosComm", representation(url = "character", curlopts = "list", curlha
 ## Class for returned Values from requests to NEOS 
 ##
 setClass("NeosAns", representation(ans = "character", method = "character", call = "call", nc = "NeosComm"))
+##
+## Class for returned XML template from NEOS 
+##
+setClass("NeosXml", representation(xml = "XMLNode", method = "character", call = "call", nc = "NeosComm"))
+
