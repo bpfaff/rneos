@@ -10,3 +10,9 @@ setMethod("show", "NeosAns", function(object){
     print(object@ans)
   }
 })
+##
+## show-method for objects of class NeosXml
+##
+setMethod("show", "NeosXml", function(object){
+  print(object@xml)
+})
