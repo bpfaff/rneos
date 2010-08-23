@@ -6,6 +6,7 @@ import(XML)
 ## Export of functions
 ##
 export(CreateNeosComm,
+       CreateXmlString,
        NemailHelp,
        NgetSolverTemplate,
        Nhelp,
