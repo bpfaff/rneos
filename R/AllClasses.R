@@ -10,4 +10,9 @@ setClass("NeosAns", representation(ans = "character", method = "character", call
 ## Class for returned XML template from NEOS 
 ##
 setClass("NeosXml", representation(xml = "XMLNode", method = "character", call = "call", nc = "NeosComm"))
+##
+## Class for assigned jobnumber and password from NEOS 
+##
+setClass("NeosJob", representation(jobnumber = "numeric", password = "character", method = "character", call = "call", nc = "NeosComm"))
+
 
