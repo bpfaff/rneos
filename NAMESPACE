@@ -20,7 +20,7 @@ export(CreateNeosComm,
 ##
 ## Export of S4-classes
 ##
-exportClasses(NeosComm, NeosAns, NeosXml)
+exportClasses(NeosComm, NeosAns, NeosXml, NeosJob)
 ##
 ## Export of S4-methods
 ##
