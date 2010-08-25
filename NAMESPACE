@@ -15,6 +15,7 @@ export(CreateNeosComm,
        NlistSolversInCategory,
        Nping,
        NprintQueue,
+       NsubmitJob,
        Nversion,
        Nwelcome)
 ##
