@@ -2,6 +2,7 @@
 ## Import directives
 ##
 import(XML)
+import(RCurl)
 ##
 ## Export of functions
 ##
