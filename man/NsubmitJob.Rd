@@ -8,7 +8,7 @@
   returns an object of class \code{NeosJob}. 
 }
 \usage{
-NsubmitJob(xmlstring, user = "rneos", interface = "R", id = 0, nc = CreateNeosComm())
+NsubmitJob(xmlstring, user = "rneos", interface = "", id = 0, nc = CreateNeosComm())
 }
 
 \arguments{
