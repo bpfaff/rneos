@@ -16,3 +16,12 @@ setMethod("show", "NeosAns", function(object){
 setMethod("show", "NeosXml", function(object){
   print(object@xml)
 })
+##
+## show-method for objects of class NeosJob
+##
+setMethod("show", "NeosJob", function(object){
+  cat("\n")
+  cat(paste("The job number is:", object@jobnumber, "\n"))
+  cat(paste("The pass word is :", object@password, "\n"))
+  cat("\n")  
+})
