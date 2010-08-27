@@ -2,6 +2,7 @@
 \Rdversion{1.1}
 \docType{class}
 \alias{NeosJob-class}
+\alias{show,NeosJob-method}
 
 \title{Class "NeosJob"}
 \description{
@@ -26,6 +27,14 @@ or more conveniently by calling the relevant R API function \code{NsubmitJob}.
       generating function of the object.}
     \item{\code{nc}:}{Object of class \code{"NeosComm"}: The NeosComm
       object that has been used in the request to NEOS.}
+  }
+}
+
+\section{Methods}{
+  \describe{
+    \item{show}{\code{signature(object = "NeosJob")}: Displays the slots
+  \code{jobnumber} and \code{password} from an object of class
+  \code{NeosJob}.}  
   }
 }
 
