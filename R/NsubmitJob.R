@@ -1,7 +1,7 @@
 ##
 ## XML-RPC method: submitJob()
 ##
-NsubmitJob <- function(xmlstring, user = "rneos", interface = "R", id = 0, nc = CreateNeosComm()){
+NsubmitJob <- function(xmlstring, user = "rneos", interface = "", id = 0, nc = CreateNeosComm()){
   if(!(class(nc) == "NeosComm")) {
     stop("\nObject provided for 'nc' must be of class 'NeosComm'.\n")
   }
