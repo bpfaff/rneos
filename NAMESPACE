@@ -9,6 +9,7 @@ import(RCurl)
 export(CreateNeosComm,
        CreateXmlString,
        NemailHelp,
+       NgetJobInfo,
        NgetJobStatus,
        NgetSolverTemplate,
        Nhelp,
