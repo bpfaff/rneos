@@ -1,5 +1,5 @@
 CreateNeosComm <- function(curlopts = list(httpheader = c(`Content-Type` = "text/xml", 'User-Agent' = "R"), port = 3332), curlhandle = getCurlHandle()){
-  url <- "http://neos.mcs.anl.gov"
+  url <- "http://www.neos-server.org"
   if(!("httpheader" %in% names(curlopts))){
     stop("\nNo 'httpheader' list element has been specified in 'curlopts'.\n")
   }
