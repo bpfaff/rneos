@@ -18,7 +18,7 @@ or more conveniently by creating an object from \code{CreateNeosComm()}.
 \section{Slots}{
   \describe{
     \item{\code{url}:}{Object of class \code{"character"}: The URL to
-      NEOS, \emph{i.e.}, \url{http://neos.mcs.anl.gov}}
+      NEOS, \emph{i.e.}, \url{http://www.neos-server.org}}
     \item{\code{curlopts}:}{Object of class \code{"list"}: A named list
       of valid Curl options.}
     \item{\code{curlhandle}:}{Object of class \code{"CURLHandle"}:
@@ -35,7 +35,6 @@ No methods defined with class "NeosComm" in the signature.
  Omegahat web site for RCurl: \url{http://www.omegahat.org/RCurl}, and\cr
  libcurl web site: \url{http://curl.haxx.se} 
 }
-
 
 \author{
   Bernhard Pfaff
