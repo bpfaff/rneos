@@ -5,7 +5,7 @@
   Inserting CDATA into XML-templates of NEOS
 }
 \description{
-  With this function the information for XML-template can be
+  With this function the information for XML-templates can be
   inserted. Ordinarily, one creates an object with the function
   \code{NgetSolverTemplate()} first and then inserts the requested CDATA
   fields of this XML-form with this function.
@@ -15,7 +15,6 @@
 CreateXmlString(neosxml, cdatalist)
 }
 
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{neosxml}{An object of class \code{NeosXml} created with the
     function \code{NgetSolverTemplate()}.
@@ -24,12 +23,12 @@ CreateXmlString(neosxml, cdatalist)
 }
 }
 
-\value{A character string containing the specified optimisation problem,
+\value{A character string containing the specified optimization problem,
   which can then be used in a call to \code{NsubmitJob()}.
 }
 
 \references{
-  NEOS API: \url{http://neos.mcs.anl.gov/neos/NEOS-API.html},\cr
+  NEOS API: \url{http://www.neos-server.org/neos/NEOS-API.html},\cr
   Omegahat web site for RCurl: \url{http://www.omegahat.org/RCurl},\cr
   Omegahat web site for XMLRPC: \url{http://www.omegahat.org/XMLRPC}
 }
@@ -44,9 +43,22 @@ CreateXmlString(neosxml, cdatalist)
 
 \examples{
 \dontrun{
-tmp <-NgetSolverTemplate(category = "go", solvername = "ASA", inputMethod = "AMPL")
-argslist <- list(model = "best", data = "weird", commands = "", comments = "test")
-CreateXmlString(tmp, cdatalist = argslist)
+tmp <-NgetSolverTemplate(category = "go", solvername = "ASA",
+inputMethod = "AMPL")
+## setting path to example model and data file
+modf <- system.file("ExAMPL", "diet.mod", package = "rneos")
+datf <- system.file("ExAMPL", "diet.dat", package = "rneos")
+## import of file contents
+modc <- paste(paste(readLines(modf), collapse = "\n"), "\n")
+cat(modc)
+datc <- paste(paste(readLines(datf), collapse = "\n"), "\n")
+cat(datc)
+## create list object
+argslist <- list(model = modc, data = datc, commands = "",
+comments = "")
+## create XML string
+xmls <- CreateXmlString(neosxml = template, cdatalist = argslist)
+xmls
 }
 }
 \keyword{IO}
