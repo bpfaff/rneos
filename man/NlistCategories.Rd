@@ -5,7 +5,8 @@
 }
 \description{
   This functions calls the XML-RPC method \dQuote{listCategories()} of NEOS and
-  returns an object of class \code{NeosAns}. 
+  returns an object of class \code{NeosAns}; a dictionary with entries
+  ('abbreviated name':'full name',...). 
 }
 \usage{
 NlistCategories(convert = TRUE, nc = CreateNeosComm())
