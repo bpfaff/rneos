@@ -42,7 +42,7 @@ No methods defined with class "NeosComm" in the signature.
 
 \seealso{
   \code{\link{CreateNeosComm}}, \code{\link[RCurl]{getCurlHandle}} and
-  \code{\link[RCurl]{CURLHandle}}
+  \code{\link[RCurl]{CURLHandle-class}}
 }
 
 \examples{
