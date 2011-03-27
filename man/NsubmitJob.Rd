@@ -36,7 +36,7 @@ NsubmitJob(xmlstring, user = "rneos", interface = "", id = 0, nc = CreateNeosCom
 }
 
 \seealso{
-  \code{\linkS4class{NeosJob-class}}, \code{\link{CreateXmlString}} and
+  \code{\linkS4class{NeosJob}}, \code{\link{CreateXmlString}} and
   \code{\link{NgetSolverTemplate}}  
 }
 
