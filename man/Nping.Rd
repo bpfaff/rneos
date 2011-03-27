@@ -35,7 +35,7 @@ Nping(convert = TRUE, nc = CreateNeosComm())
 }
 
 \seealso{
-  \code{\linkS4class{NeosAns-class}}, \code{\link{NlistCategories}} and
+  \code{\linkS4class{NeosAns}}, \code{\link{NlistCategories}} and
   \code{\link{CreateNeosComm}}  
 }
 
