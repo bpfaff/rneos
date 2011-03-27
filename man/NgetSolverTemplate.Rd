@@ -37,7 +37,7 @@ NgetSolverTemplate(category, solvername, inputMethod, nc = CreateNeosComm())
 }
 
 \seealso{
-  \code{\linkS4class{NeosXml-class}}, \code{\link{NlistAllSolvers}} and
+  \code{\linkS4class{NeosXml}}, \code{\link{NlistAllSolvers}} and
   \code{\link{CreateNeosComm}}  
 }
 
