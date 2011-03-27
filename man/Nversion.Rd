@@ -25,7 +25,7 @@ Nversion(convert = TRUE, nc = CreateNeosComm())
 }
 
 \references{
-  NEOS API: \url{http://neos.mcs.anl.gov/neos/NEOS-API.html},\cr
+  NEOS API: \url{http://www.neos-server.org/neos/NEOS-API.html},\cr
   Omegahat web site for RCurl: \url{http://www.omegahat.org/RCurl},\cr
   Omegahat web site for XMLRPC: \url{http://www.omegahat.org/XMLRPC}
 }
