@@ -39,7 +39,7 @@ NgetJobInfo(obj, convert = TRUE)
   and \code{\link{NgetJobStatus}}
 }
 
-\example{
+\examples{
 \dontrun{
 tmp <-NgetSolverTemplate(category = "go", solvername = "ASA",
 inputMethod = "AMPL")
