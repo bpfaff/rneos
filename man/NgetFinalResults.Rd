@@ -36,7 +36,7 @@ NgetFinalResults(obj, convert = TRUE)
 }
 
 \seealso{
-  \code{\linkS4class{NeosAns-class}}, \code{\link{NsubmitJob}}
+  \code{\linkS4class{NeosAns}}, \code{\link{NsubmitJob}}
 }
 
 \examples{
