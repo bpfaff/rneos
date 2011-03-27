@@ -39,7 +39,7 @@ NgetFinalResults(obj, convert = TRUE)
   \code{\linkS4class{NeosAns-class}}, \code{\link{NsubmitJob}}
 }
 
-\example{
+\examples{
 \dontrun{
 tmp <-NgetSolverTemplate(category = "go", solvername = "ASA",
 inputMethod = "AMPL")
