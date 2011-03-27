@@ -35,7 +35,7 @@ NgetJobInfo(obj, convert = TRUE)
 }
 
 \seealso{
-  \code{\linkS4class{NeosAns-class}}, \code{\linkS4class{NeosJob-class}}
+  \code{\linkS4class{NeosAns}}, \code{\linkS4class{NeosJob}}
   and \code{\link{NgetJobStatus}}
 }
 
