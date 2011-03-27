@@ -56,7 +56,7 @@ getCurlHandle())
 }
 
 \seealso{
-  \code{\linkS4class{NeosComm-class}}
+  \code{\linkS4class{NeosComm}}
 }
 
 \examples{
