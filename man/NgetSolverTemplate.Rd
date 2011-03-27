@@ -4,8 +4,9 @@
   XML-RPC method getSolverTemplate of Neos 
 }
 \description{
-  This functions calls the XML-RPC method \dQuote{getSolverTemplate()} of NEOS and
-  returns an object of class \code{NeosXml}. 
+  This functions calls the XML-RPC method \dQuote{getSolverTemplate()}
+  of NEOS. If the solver category:solvername:inputMethod exists on NEOS,
+  then an XML template is returned as an object of class \code{NeosXml}. 
 }
 \usage{
 NgetSolverTemplate(category, solvername, inputMethod, nc = CreateNeosComm())
@@ -26,7 +27,7 @@ NgetSolverTemplate(category, solvername, inputMethod, nc = CreateNeosComm())
 }
 
 \references{
-  NEOS API: \url{http://neos.mcs.anl.gov/neos/NEOS-API.html},\cr
+  NEOS API: \url{http://www.neos-server.org/neos/NEOS-API.html},\cr
   Omegahat web site for RCurl: \url{http://www.omegahat.org/RCurl},\cr
   Omegahat web site for XMLRPC: \url{http://www.omegahat.org/XMLRPC}
 }
