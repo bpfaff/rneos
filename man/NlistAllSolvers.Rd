@@ -5,7 +5,8 @@
 }
 \description{
   This functions calls the XML-RPC method \dQuote{listAllSolvers()} of NEOS and
-  returns an object of class \code{NeosAns}. 
+  returns an object of class \code{NeosAns}; a list of
+  category:solver:inputMethod. 
 }
 \usage{
 NlistAllSolvers(convert = TRUE, nc = CreateNeosComm())
