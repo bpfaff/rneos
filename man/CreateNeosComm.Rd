@@ -32,7 +32,7 @@ getCurlHandle())
   within the requests will be created directly in the API-functions
   provided in this package and must not be provided as list elements in
   \code{curloptions}. However, if one accesses NEOS \emph{via} a
-  Proxy-Server, for instance than the values for the relevant options
+  Proxy-Server, for instance, than the values for the relevant options
   must be set within the list-argument \code{curlopts}.
   The values of the returned object will be passed down to the function
   \code{xml.rpc()} which is utilised for all calls to the function
@@ -45,9 +45,9 @@ getCurlHandle())
 }
 
 \references{
-  NEOS API: \url{http://www.neos-server.org/neos/NEOS-API.html},\\
-  Omegahat web site for RCurl: \url{http://www.omegahat.org/RCurl},\\
-  Omegahat web site for XMLRPC: \url{http://www.omegahat.org/XMLRPC},\\  
+  NEOS API: \url{http://www.neos-server.org/neos/NEOS-API.html},\cr
+  Omegahat web site for RCurl: \url{http://www.omegahat.org/RCurl},\cr
+  Omegahat web site for XMLRPC: \url{http://www.omegahat.org/XMLRPC},\cr  
   libcurl web site: \url{http://curl.haxx.se} 
 }
 
