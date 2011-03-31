@@ -5,9 +5,10 @@
 }
 \description{
  This method is used to cancel a job submission running on NEOS (or
- waiting to run on NEOS). The job password to prevent abuse of this
- function. This functions calls the XML-RPC method \dQuote{killJob()}
- of NEOS and returns an object of class \code{NeosAns}. 
+ waiting to run on NEOS). The job password is required to prevent abuse
+ of this function (extracted from relevant slot of \code{obj}). This
+ functions calls the XML-RPC method \dQuote{killJob()} of NEOS and
+ returns an object of class \code{NeosAns}.  
 }
 \usage{
 NkillJob(obj, convert = TRUE)
