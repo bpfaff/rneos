@@ -5,7 +5,9 @@
 }
 \description{
   This functions calls the XML-RPC method \dQuote{ping()} of NEOS and
-  returns an object of class \code{NeosAns}. 
+  returns an object of class \code{NeosAns}. It is verified that this
+  NeosServer is running and a message \sQuote{NeosServer is alive} is
+  returned. 
 }
 \usage{
 Nping(convert = TRUE, nc = CreateNeosComm())
