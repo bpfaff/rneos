@@ -36,7 +36,7 @@ NgetJobStatus(obj, convert = TRUE)
 }
 
 \seealso{
-  \code{\linkS4class{NeosAns}}, \code{\link{NsubmitJob}}
+  \code{\linkS4class{NeosAns}} and \code{\link{NsubmitJob}}
 }
 
 \examples{
