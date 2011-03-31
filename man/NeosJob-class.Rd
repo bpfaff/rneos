@@ -51,6 +51,7 @@ or more conveniently by calling the relevant R API function \code{NsubmitJob}.
 \examples{
 showClass("NeosJob")
 \dontrun{
+
 tmp <-NgetSolverTemplate(category = "go", solvername = "ASA",
 inputMethod = "AMPL")
 ## setting path to example model and data file
