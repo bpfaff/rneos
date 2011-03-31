@@ -3,9 +3,11 @@
 \title{
   XML-RPC method welcome of Neos 
 }
+
 \description{
   This functions calls the XML-RPC method \dQuote{welcome()} of NEOS and
-  returns an object of class \code{NeosAns}. 
+  returns an object of class \code{NeosAns}, which is a welcome message
+  (string).  
 }
 \usage{
 Nwelcome(convert = TRUE, nc = CreateNeosComm())
