@@ -5,8 +5,10 @@
 }
 \description{
   This functions calls the XML-RPC method \dQuote{printQueue()} of NEOS and
-  returns an object of class \code{NeosAns}. 
+  returns an object of class \code{NeosAns}, which is a string
+  containing the current NEOS jobs.   
 }
+
 \usage{
 NprintQueue(convert = TRUE, nc = CreateNeosComm())
 }
