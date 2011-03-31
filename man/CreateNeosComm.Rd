@@ -45,10 +45,10 @@ getCurlHandle())
 }
 
 \references{
-  NEOS API: \url{http://www.neos-server.org/neos/NEOS-API.html},
-  Omegahat web site for RCurl: \url{http://www.omegahat.org/RCurl},
-  Omegahat web site for XMLRPC: \url{http://www.omegahat.org/XMLRPC},  
-  and libcurl web site: \url{http://curl.haxx.se} 
+  NEOS API: \url{http://www.neos-server.org/neos/NEOS-API.html},\\
+  Omegahat web site for RCurl: \url{http://www.omegahat.org/RCurl},\\
+  Omegahat web site for XMLRPC: \url{http://www.omegahat.org/XMLRPC},\\  
+  libcurl web site: \url{http://curl.haxx.se} 
 }
 
 \author{
