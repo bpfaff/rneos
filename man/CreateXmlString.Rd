@@ -38,7 +38,7 @@ CreateXmlString(neosxml, cdatalist)
 }
 
 \seealso{
-  \code{\linkS4class{NeosXml}}, \code{\link{NgetSolverTemplate}}
+  \code{\linkS4class{NeosXml}} and \code{\link{NgetSolverTemplate}}
 }
 
 \examples{
