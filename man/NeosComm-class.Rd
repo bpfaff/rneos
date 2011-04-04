@@ -17,10 +17,10 @@ or more conveniently by creating an object from \code{CreateNeosComm()}.
 }
 \section{Slots}{
   \describe{
-    \item{\code{url}:}{Object of class \code{"character"}: The URL to
-      NEOS, \emph{i.e.}, \url{http://www.neos-server.org}}
-    \item{\code{curlopts}:}{Object of class \code{"list"}: A named list
-      of valid Curl options.}
+    \item{\code{url}:}{Object of class \code{"character"}:
+      The URL to NEOS, \emph{i.e.}, \url{http://www.neos-server.org}}
+    \item{\code{curlopts}:}{Object of class \code{"list"}:
+      A named list of valid Curl options.}
     \item{\code{curlhandle}:}{Object of class \code{"CURLHandle"}:
       Objects of this class can be created and altered with
       \code{getCurlHandle()}}
@@ -48,6 +48,7 @@ No methods defined with class "NeosComm" in the signature.
 \examples{
 showClass("NeosComm")
 \dontrun{
+
 nc <- CreateNeosComm()
 nc
 }

@@ -51,5 +51,6 @@ or more conveniently by calling the relevant R API functions.
 \examples{
 showClass("NeosAns")
 }
+
 \keyword{classes}
 \keyword{IO}

@@ -7,8 +7,8 @@
 \description{
   With this function the information for XML-templates can be
   inserted. Ordinarily, one creates an object with the function
-  \code{NgetSolverTemplate()} first and then inserts the requested CDATA
-  fields of this XML-form with this function.
+  \code{NgetSolverTemplate()} first and then inserts the
+  requested CDATA fields of this XML-form with this function.
 }
 
 \usage{
@@ -23,8 +23,8 @@ CreateXmlString(neosxml, cdatalist)
 }
 }
 
-\value{A character string containing the specified optimization problem,
-  which can then be used in a call to \code{NsubmitJob()}.
+\value{A character string containing the specified optimization
+       problem, which can then be used in a call to \code{NsubmitJob()}.
 }
 
 \references{
@@ -43,6 +43,7 @@ CreateXmlString(neosxml, cdatalist)
 
 \examples{
 \dontrun{
+
 tmp <-NgetSolverTemplate(category = "go", solvername = "ASA",
 inputMethod = "AMPL")
 ## setting path to example model and data file

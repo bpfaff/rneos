@@ -4,9 +4,9 @@
   XML-RPC method getJobStatus of Neos 
 }
 \description{
-  This functions calls the XML-RPC method \dQuote{getJobStatus()} of NEOS and
-  returns an object of class \code{NeosAns}. The functions returns the
-  current job status (either \dQuote{Done}, \dQuote{Running},
+  This functions calls the XML-RPC method \dQuote{getJobStatus()} of
+  NEOS and returns an object of class \code{NeosAns}. The functions
+  returns the current job status (either \dQuote{Done}, \dQuote{Running},
   \dQuote{Waiting}, \dQuote{Unknown Job} or \dQuote{Bad Password}). 
 }
 \usage{
@@ -41,6 +41,7 @@ NgetJobStatus(obj, convert = TRUE)
 
 \examples{
 \dontrun{
+
 tmp <-NgetSolverTemplate(category = "go", solvername = "ASA",
 inputMethod = "AMPL")
 ## setting path to example model and data file

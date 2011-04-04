@@ -41,6 +41,7 @@ NgetFinalResults(obj, convert = TRUE)
 
 \examples{
 \dontrun{
+
 tmp <-NgetSolverTemplate(category = "go", solvername = "ASA",
 inputMethod = "AMPL")
 ## setting path to example model and data file

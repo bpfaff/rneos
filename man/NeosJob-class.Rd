@@ -13,20 +13,21 @@
 
 \section{Objects from the Class}{
 Objects can be created by calls of the form \code{new("NeosJob", ...)}
-or more conveniently by calling the relevant R API function \code{NsubmitJob}.
+or more conveniently by calling the relevant R API function
+\code{NsubmitJob}. 
 }
 \section{Slots}{
   \describe{
-    \item{\code{jobnumber}:}{Object of class \code{"numeric"}: The
-      returned job number.}
-    \item{\code{password}:}{Object of class \code{"character"}: The
-      returned pass word.}
-    \item{\code{method}:}{Object of class \code{"character"}: The name
-      of the called API function.}
-    \item{\code{call}:}{Object of class \code{"call"}: The call to the
-      generating function of the object.}
-    \item{\code{nc}:}{Object of class \code{"NeosComm"}: The NeosComm
-      object that has been used in the request to NEOS.}
+    \item{\code{jobnumber}:}{Object of class \code{"numeric"}:
+      The returned job number.}
+    \item{\code{password}:}{Object of class \code{"character"}:
+      The returned pass word.}
+    \item{\code{method}:}{Object of class \code{"character"}:
+      The name of the called API function.}
+    \item{\code{call}:}{Object of class \code{"call"}:
+      The call to the generating function of the object.}
+    \item{\code{nc}:}{Object of class \code{"NeosComm"}:
+      The NeosComm object that has been used in the request to NEOS.} 
   }
 }
 

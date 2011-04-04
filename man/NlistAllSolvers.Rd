@@ -4,9 +4,9 @@
   XML-RPC method listAllSolvers of Neos 
 }
 \description{
-  This functions calls the XML-RPC method \dQuote{listAllSolvers()} of NEOS and
-  returns an object of class \code{NeosAns}; a list of
-  category:solver:inputMethod. 
+  This functions calls the XML-RPC method \dQuote{listAllSolvers()} of
+  NEOS and returns an object of class \code{NeosAns}; a list of
+  \code{category:solver:inputMethod}. 
 }
 \usage{
 NlistAllSolvers(convert = TRUE, nc = CreateNeosComm())
@@ -16,9 +16,9 @@ NlistAllSolvers(convert = TRUE, nc = CreateNeosComm())
   \item{convert}{Logical, if \code{convert = TRUE} (the default) the
     value of the returned XML-RPC result is extracted and returned as
     character, otherwise the XML-RPC string is returned.}
-  \item{nc}{Object of class \code{NeosComm}: By default, this argument
-    is set by calling \code{CreateNeosComm()} and thereby using the
-    default values of this function.}
+  \item{nc}{Object of class \code{NeosComm}:
+    By default, this argument is set by calling \code{CreateNeosComm()}
+  and thereby using the default values of this function.}
 }
 
 \value{
@@ -41,6 +41,7 @@ NlistAllSolvers(convert = TRUE, nc = CreateNeosComm())
 
 \examples{
 \dontrun{
+
 NlistAllSolvers()
 }
 }

@@ -9,7 +9,8 @@
   then an XML template is returned as an object of class \code{NeosXml}. 
 }
 \usage{
-NgetSolverTemplate(category, solvername, inputMethod, nc = CreateNeosComm())
+NgetSolverTemplate(category, solvername, inputMethod,
+                   nc = CreateNeosComm())
 }
 
 \arguments{
@@ -17,9 +18,9 @@ NgetSolverTemplate(category, solvername, inputMethod, nc = CreateNeosComm())
   \item{solvername}{Character, the name of the solver to be used.}
   \item{inputMethod}{Character, the name of the solver for which the
     xml-template shall be returned.}
-  \item{nc}{Object of class \code{NeosComm}: By default, this argument
-    is set by calling \code{CreateNeosComm()} and thereby using the
-    default values of this function.}
+  \item{nc}{Object of class \code{NeosComm}:
+    By default, this argument is set by calling \code{CreateNeosComm()}
+  and thereby using the default values of this function.}
 }
 
 \value{
@@ -43,6 +44,7 @@ NgetSolverTemplate(category, solvername, inputMethod, nc = CreateNeosComm())
 
 \examples{
 \dontrun{
+
 NgetSolverTemplate(category = "go", solvername = "ASA", inputMethod = "AMPL")
 }
 }

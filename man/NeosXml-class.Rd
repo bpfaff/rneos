@@ -16,14 +16,14 @@ or more conveniently by calling the relevant R API functions.
 }
 \section{Slots}{
   \describe{
-    \item{\code{xml}:}{Object of class \code{"XMLNode"}: The returned
-      and converted XML-template of NEOS.}
-    \item{\code{method}:}{Object of class \code{"character"}: The name
-      of the called API function.}
-    \item{\code{call}:}{Object of class \code{"call"}: The call to the
-      generating function of the object.}
-    \item{\code{nc}:}{Object of class \code{"NeosComm"}: The NeosComm
-      object that has been used in the request to NEOS.}
+    \item{\code{xml}:}{Object of class \code{"XMLNode"}:
+      The returned and converted XML-template of NEOS.}
+    \item{\code{method}:}{Object of class \code{"character"}:
+      The name of the called API function.}
+    \item{\code{call}:}{Object of class \code{"call"}:
+      The call to the generating function of the object.}
+    \item{\code{nc}:}{Object of class \code{"NeosComm"}:
+      The NeosComm object that has been used in the request to NEOS.}
   }
 }
 

@@ -13,13 +13,14 @@ NsubmitJob(xmlstring, user = "rneos", interface = "",
 }
 
 \arguments{
-  \item{xmlstring}{Character, the xml string according to the solver's template and filled withe the user's optimisation data.}   
+  \item{xmlstring}{Character, the xml string according to the solver's
+  template and filled withe the user's optimisation data.}    
   \item{user}{Character, the name of the user}
   \item{interface}{Character, the name of the interface.}
   \item{id}{Integer, an identifier for the submitted job.}  
-  \item{nc}{Object of class \code{NeosComm}: By default, this argument
-    is set by calling \code{CreateNeosComm()} and thereby using the
-    default values of this function.}
+  \item{nc}{Object of class \code{NeosComm}:
+    By default, this argument is set by calling \code{CreateNeosComm()}
+  and thereby using the default values of this function.}
 }
 
 \value{

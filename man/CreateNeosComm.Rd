@@ -61,6 +61,7 @@ getCurlHandle())
 
 \examples{
 \dontrun{
+
 nc <- CreateNeosComm()
 nc
 }
