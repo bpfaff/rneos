@@ -1,0 +1,48 @@
+\name{NeosOff-class}
+\Rdversion{1.1}
+\docType{class}
+\alias{NeosOff-class}
+
+\title{Class "NeosOff"}
+\description{
+  Objects of this class contain among other slots the partial result and
+  the offset.
+}
+
+\section{Objects from the Class}{
+Objects can be created by calls of the form \code{new("NeosOff", ...)}.
+}
+\section{Slots}{
+  \describe{
+    \item{\code{ans}:}{Object of class \code{"character"}: The partial
+      result returned from NEOS.}
+    \item{\code{offset}:}{Object of class \code{"integer"}: The integer
+      offset until the results have been returned.}
+    \item{\code{jobnumber}:}{Object of class \code{"numeric"}: The
+      returned job number.}
+    \item{\code{password}:}{Object of class \code{"character"}: The
+      returned pass word.}
+    \item{\code{method}:}{Object of class \code{"character"}: The name
+      of the called API function.}
+    \item{\code{call}:}{Object of class \code{"call"}: The call to the
+      generating function of the object.}
+    \item{\code{nc}:}{Object of class \code{"NeosComm"}: The NeosComm
+      object that has been used in the request to NEOS.}
+  }
+}
+
+\references{
+  NEOS API: \url{http://neos.mcs.anl.gov/neos/NEOS-API.html},\cr
+  Omegahat web site for RCurl: \url{http://www.omegahat.org/RCurl},\cr
+  Omegahat web site for XMLRPC: \url{http://www.omegahat.org/XMLRPC}
+}
+
+\author{
+  Bernhard Pfaff
+}
+
+\examples{
+showClass("NeosOff")
+}
+\keyword{classes}
+\keyword{IO}
