@@ -2,6 +2,7 @@
 \Rdversion{1.1}
 \docType{class}
 \alias{NeosOff-class}
+\alias{show,NeosOff-method}
 
 \title{Class "NeosOff"}
 \description{
