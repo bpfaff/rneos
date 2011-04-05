@@ -25,3 +25,17 @@ setMethod("show", "NeosJob", function(object){
   cat(paste("The pass word is :", object@password, "\n"))
   cat("\n")  
 })
+##
+## show-method for objects of class NeosOff
+##
+setMethod("show", "NeosOff", function(object){
+  title <- paste("# The new offset is:", object@offset, "#", sep=" ")
+  row <- paste(rep("#", nchar(title)), collapse="")
+  cat("\n")
+  cat(object@ans)
+  cat("\n")
+  cat(row, "\n")
+  cat(title, "\n")
+  cat(row, "\n")  
+  cat("\n")
+})
