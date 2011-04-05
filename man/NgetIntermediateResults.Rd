@@ -47,9 +47,6 @@ NgetIntermediateResults(obj, offset = NULL, convert = TRUE)
 }
 
 \examples{
-}
-
-\examples{
 \dontrun{
 
 tmp <-NgetSolverTemplate(category = "go", solvername = "ASA",
