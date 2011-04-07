@@ -11,12 +11,13 @@
  returns an object of class \code{NeosAns}.  
 }
 \usage{
-NkillJob(obj, convert = TRUE)
+NkillJob(obj, killmsg = NULL, convert = TRUE)
 }
 
 \arguments{
   \item{obj}{Object of class \code{NeosJob}, as returned by the function
-  \code{NsubmitJob}.} 
+    \code{NsubmitJob}.}
+  \item{killmsg}{Character, optional description.} 
   \item{convert}{Logical, if \code{convert = TRUE} (the default) the
     value of the returned XML-RPC result is extracted and returned as
     character, otherwise the XML-RPC string is returned.}
