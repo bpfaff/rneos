@@ -10,11 +10,11 @@ NgetIntermediateResultsNonBlocking <- function (obj, offset = NULL, convert = TR
   password <- obj@password
   nc <- obj@nc
   if(is.null(offset)){
-    offset <- as.integer(0)
+    off <- as.integer(0)
   } else {
-    offset <- as.integer(offset)
+    off <- as.integer(offset)
   }
-  ans <- xml.rpc(url = nc@url, method = "getIntermediateResultsNonBlocking", .args = list(jobnumber = jobnumber, password = password, off = offset), .convert = FALSE, .opts = nc@curlopts, .curl = nc@curlhandle)
+  ans <- xml.rpc(url = nc@url, method = "getIntermediateResultsNonBlocking", .args = list(jobnumber = jobnumber, password = password, off = off), .convert = FALSE, .opts = nc@curlopts, .curl = nc@curlhandle)
   tmp <- xmlToList(xmlRoot(xmlTreeParse(ans)))
   offset <- as.integer(tmp[2, ])
   if (convert) {
@@ -27,6 +27,6 @@ NgetIntermediateResultsNonBlocking <- function (obj, offset = NULL, convert = TR
       ans <- "\nNothing left to return from NEOS.\n"
     }
   }
-  res <- new("NeosOff", ans = ans, offset = offset, jobnumber = jobnumber, password = password, method = "getIntermediateResultsNonBlocking", call = call, nc = nc)
+  res <- new("NeosOff", ans = ans, offset = off, jobnumber = jobnumber, password = password, method = "getIntermediateResultsNonBlocking", call = call, nc = nc)
   return(res)
 }
