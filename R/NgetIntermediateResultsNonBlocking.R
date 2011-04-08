@@ -14,7 +14,7 @@ NgetIntermediateResultsNonBlocking <- function (obj, offset = NULL, convert = TR
   } else {
     offset <- as.integer(offset)
   }
-  ans <- xml.rpc(url = nc@url, method = "getIntermediateResultsNonBlocking", .args = list(jobnumber = jobnumber, password = password, offset = offset), .convert = FALSE, .opts = nc@curlopts, .curl = nc@curlhandle)
+  ans <- xml.rpc(url = nc@url, method = "getIntermediateResultsNonBlocking", .args = list(jobnumber = jobnumber, password = password, off = offset), .convert = FALSE, .opts = nc@curlopts, .curl = nc@curlhandle)
   tmp <- xmlToList(xmlRoot(xmlTreeParse(ans)))
   offset <- as.integer(tmp[2, ])
   if (convert) {
