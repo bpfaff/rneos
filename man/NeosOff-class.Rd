@@ -3,6 +3,7 @@
 \docType{class}
 \alias{NeosOff-class}
 \alias{show,NeosOff-method}
+\alias{update,NeosOff-method}
 
 \title{Class "NeosOff"}
 \description{
@@ -31,6 +32,14 @@ Objects can be created by calls of the form \code{new("NeosOff", ...)}.
       object that has been used in the request to NEOS.}
   }
 }
+
+
+\section{Methods}{
+  \describe{
+    \item{update}{Updates an object of class \code{NeosOff}.}
+  }
+}
+
 
 \references{
   NEOS API: \url{http://neos.mcs.anl.gov/neos/NEOS-API.html},\cr
