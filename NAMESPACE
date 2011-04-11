@@ -3,6 +3,8 @@
 ##
 import(XML)
 import(RCurl)
+## Import functions
+importFrom(stats, update)
 ##
 ## Export of functions
 ##
@@ -33,5 +35,5 @@ exportClasses(NeosComm, NeosAns, NeosXml, NeosJob, NeosOff)
 ##
 ## Export of S4-methods
 ##
-exportMethods(show)
+exportMethods(show, update)
 
