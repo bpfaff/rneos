@@ -1,7 +1,7 @@
 Package: rneos
-Version: 0.2-7
-Date: 2012-07-22
-Title: rneos: XML-RPC Interface to NEOS
+Version: 0.2-8
+Date: 2012-08-01
+Title: XML-RPC Interface to NEOS
 Authors@R: person("Bernhard", "Pfaff", email = "bernhard@pfaffikus.de", role = c("aut", "cre"))
 Depends: R (>= 2.10.0), methods, XMLRPC, RCurl, XML, stats
 LazyLoad: yes
