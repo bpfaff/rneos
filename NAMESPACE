@@ -3,6 +3,7 @@
 ##
 import(XML)
 import(RCurl)
+import(methods)
 ## Import functions
 importFrom(stats, update)
 ##
