@@ -42,9 +42,9 @@ Objects can be created by calls of the form \code{new("NeosOff", ...)}.
 
 
 \references{
-  NEOS API: \url{http://neos.mcs.anl.gov/neos/NEOS-API.html},\cr
-  Omegahat web site for RCurl: \url{http://www.omegahat.org/RCurl},\cr
-  Omegahat web site for XMLRPC: \url{http://www.omegahat.org/XMLRPC}
+  NEOS API: \url{http://neos-guide.org/content/NEOS-API},\cr
+  Omegahat web site for RCurl: \url{http://www.omegahat.net/RCurl},\cr
+  Omegahat web site for XMLRPC: \url{http://www.omegahat.net/XMLRPC}
 }
 
 \author{

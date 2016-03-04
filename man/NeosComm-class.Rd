@@ -32,7 +32,7 @@ No methods defined with class "NeosComm" in the signature.
 }
 
 \references{
- Omegahat web site for RCurl: \url{http://www.omegahat.org/RCurl}, and\cr
+ Omegahat web site for RCurl: \url{http://www.omegahat.net/RCurl}, and\cr
  libcurl web site: \url{http://curl.haxx.se} 
 }
 

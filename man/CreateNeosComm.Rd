@@ -45,9 +45,9 @@ getCurlHandle())
 }
 
 \references{
-  NEOS API: \url{http://www.neos-server.org/neos/NEOS-API.html},\cr
-  Omegahat web site for RCurl: \url{http://www.omegahat.org/RCurl},\cr
-  Omegahat web site for XMLRPC: \url{http://www.omegahat.org/XMLRPC},\cr  
+  NEOS API: \url{http://neos-guide.org/content/NEOS-API},\cr
+  Omegahat web site for RCurl: \url{http://www.omegahat.net/RCurl},\cr
+  Omegahat web site for XMLRPC: \url{http://www.omegahat.net/XMLRPC},\cr  
   libcurl web site: \url{http://curl.haxx.se} 
 }
 
