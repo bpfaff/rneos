@@ -1,0 +1,40 @@
+##
+## Import directives
+##
+import(XML)
+import(RCurl)
+import(methods)
+## Import functions
+importFrom(stats, update)
+##
+## Export of functions
+##
+export(CreateNeosComm,
+       CreateXmlString,
+       NemailHelp,
+       NgetFinalResults,
+       NgetFinalResultsNonBlocking,
+       NgetIntermediateResults,
+       NgetIntermediateResultsNonBlocking,
+       NgetJobInfo,
+       NgetJobStatus,
+       NgetSolverTemplate,
+       Nhelp,
+       NkillJob,
+       NlistAllSolvers,
+       NlistCategories,
+       NlistSolversInCategory,
+       Nping,
+       NprintQueue,
+       NsubmitJob,
+       Nversion,
+       Nwelcome)
+##
+## Export of S4-classes
+##
+exportClasses(NeosComm, NeosAns, NeosXml, NeosJob, NeosOff)
+##
+## Export of S4-methods
+##
+exportMethods(show, update)
+
