@@ -1,12 +1,12 @@
 \name{NgetSolverTemplate}
 \alias{NgetSolverTemplate}
 \title{
-  XML-RPC method getSolverTemplate of Neos 
+  XML-RPC method getSolverTemplate of Neos
 }
 \description{
   This functions calls the XML-RPC method \dQuote{getSolverTemplate()}
   of NEOS. If the solver category:solvername:inputMethod exists on NEOS,
-  then an XML template is returned as an object of class \code{NeosXml}. 
+  then an XML template is returned as an object of class \code{NeosXml}.
 }
 \usage{
 NgetSolverTemplate(category, solvername, inputMethod,
@@ -39,7 +39,7 @@ NgetSolverTemplate(category, solvername, inputMethod,
 
 \seealso{
   \code{\linkS4class{NeosXml}}, \code{\link{NlistAllSolvers}} and
-  \code{\link{CreateNeosComm}}  
+  \code{\link{CreateNeosComm}}
 }
 
 \examples{

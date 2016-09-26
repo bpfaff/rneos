@@ -1,7 +1,7 @@
 \name{NgetJobInfo}
 \alias{NgetJobInfo}
 \title{
-  XML-RPC method getJobInfo of Neos 
+  XML-RPC method getJobInfo of Neos
 }
 \description{
   This functions calls the XML-RPC method \dQuote{getJobInfo()} of NEOS and
@@ -14,7 +14,7 @@ NgetJobInfo(obj, convert = TRUE)
 
 \arguments{
   \item{obj}{Object of class \code{NeosJob}, as returned by the function
-  \code{NsubmitJob}.} 
+  \code{NsubmitJob}.}
   \item{convert}{Logical, if \code{convert = TRUE} (the default) the
     value of the returned XML-RPC result is extracted and returned as
     character, otherwise the XML-RPC string is returned.}

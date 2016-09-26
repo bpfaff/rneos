@@ -1,13 +1,13 @@
 \name{Nping}
 \alias{Nping}
 \title{
-  XML-RPC method ping of Neos 
+  XML-RPC method ping of Neos
 }
 \description{
   This functions calls the XML-RPC method \dQuote{ping()} of NEOS and
   returns an object of class \code{NeosAns}. It is verified that this
   NeosServer is running and a message \sQuote{NeosServer is alive} is
-  returned. 
+  returned.
 }
 \usage{
 Nping(convert = TRUE, nc = CreateNeosComm())
@@ -38,7 +38,7 @@ Nping(convert = TRUE, nc = CreateNeosComm())
 
 \seealso{
   \code{\linkS4class{NeosAns}}, \code{\link{NlistCategories}} and
-  \code{\link{CreateNeosComm}}  
+  \code{\link{CreateNeosComm}}
 }
 
 \examples{

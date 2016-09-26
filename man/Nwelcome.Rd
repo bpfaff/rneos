@@ -1,13 +1,13 @@
 \name{Nwelcome}
 \alias{Nwelcome}
 \title{
-  XML-RPC method welcome of Neos 
+  XML-RPC method welcome of Neos
 }
 
 \description{
   This functions calls the XML-RPC method \dQuote{welcome()} of NEOS and
   returns an object of class \code{NeosAns}, which is a welcome message
-  (string).  
+  (string).
 }
 \usage{
 Nwelcome(convert = TRUE, nc = CreateNeosComm())
@@ -37,7 +37,7 @@ Nwelcome(convert = TRUE, nc = CreateNeosComm())
 }
 
 \seealso{
-  \code{\linkS4class{NeosAns}} and \code{\link{CreateNeosComm}} 
+  \code{\linkS4class{NeosAns}} and \code{\link{CreateNeosComm}}
 }
 
 \examples{

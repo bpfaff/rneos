@@ -1,12 +1,12 @@
 \name{NprintQueue}
 \alias{NprintQueue}
 \title{
-  XML-RPC method printQueue of Neos 
+  XML-RPC method printQueue of Neos
 }
 \description{
   This functions calls the XML-RPC method \dQuote{printQueue()} of NEOS
   and returns an object of class \code{NeosAns}, which is a string
-  containing the current NEOS jobs.    
+  containing the current NEOS jobs.
 }
 
 \usage{
@@ -37,7 +37,7 @@ NprintQueue(convert = TRUE, nc = CreateNeosComm())
 }
 
 \seealso{
-  \code{\linkS4class{NeosAns}} and \code{\link{CreateNeosComm}} 
+  \code{\linkS4class{NeosAns}} and \code{\link{CreateNeosComm}}
 }
 
 \examples{

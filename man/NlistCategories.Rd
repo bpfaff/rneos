@@ -1,12 +1,12 @@
 \name{NlistCategories}
 \alias{NlistCategories}
 \title{
-  XML-RPC method listCategories of Neos 
+  XML-RPC method listCategories of Neos
 }
 \description{
   This functions calls the XML-RPC method \dQuote{listCategories()} of
   NEOS and returns an object of class \code{NeosAns}; a dictionary with
-  entries ('abbreviated name':'full name',...). 
+  entries ('abbreviated name':'full name',...).
 }
 \usage{
 NlistCategories(convert = TRUE, nc = CreateNeosComm())
@@ -36,7 +36,7 @@ NlistCategories(convert = TRUE, nc = CreateNeosComm())
 }
 
 \seealso{
-  \code{\linkS4class{NeosAns}} and \code{\link{CreateNeosComm}} 
+  \code{\linkS4class{NeosAns}} and \code{\link{CreateNeosComm}}
 }
 
 \examples{

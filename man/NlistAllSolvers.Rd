@@ -1,12 +1,12 @@
 \name{NlistAllSolvers}
 \alias{NlistAllSolvers}
 \title{
-  XML-RPC method listAllSolvers of Neos 
+  XML-RPC method listAllSolvers of Neos
 }
 \description{
   This functions calls the XML-RPC method \dQuote{listAllSolvers()} of
   NEOS and returns an object of class \code{NeosAns}; a list of
-  \code{category:solver:inputMethod}. 
+  \code{category:solver:inputMethod}.
 }
 \usage{
 NlistAllSolvers(convert = TRUE, nc = CreateNeosComm())
@@ -36,7 +36,7 @@ NlistAllSolvers(convert = TRUE, nc = CreateNeosComm())
 }
 
 \seealso{
-  \code{\linkS4class{NeosAns}} and \code{\link{CreateNeosComm}} 
+  \code{\linkS4class{NeosAns}} and \code{\link{CreateNeosComm}}
 }
 
 \examples{

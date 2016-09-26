@@ -1,7 +1,7 @@
 \name{NgetFinalResults}
 \alias{NgetFinalResults}
 \title{
-  XML-RPC method getFinalResults of Neos 
+  XML-RPC method getFinalResults of Neos
 }
 \description{
   This functions calls the XML-RPC method \dQuote{getFinalResults()} of
@@ -10,7 +10,7 @@
 }
 
 \usage{
-NgetFinalResults(obj, convert = TRUE) 
+NgetFinalResults(obj, convert = TRUE)
 }
 
 \arguments{

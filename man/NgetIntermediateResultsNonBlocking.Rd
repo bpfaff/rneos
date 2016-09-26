@@ -1,7 +1,7 @@
 \name{NgetIntermediateResultsNonBlocking}
 \alias{NgetIntermediateResultsNonBlocking}
 \title{
-  XML-RPC method getIntermediateResultsNonBlocking of Neos 
+  XML-RPC method getIntermediateResultsNonBlocking of Neos
 }
 \description{
   This functions calls the XML-RPC method
@@ -12,7 +12,7 @@
   still running, then this function will hang until another packet of
   output is sent to NEOS or the job is finished. This function will
   return a tuple of thebase-64 encoded object and the new offset
-  (object, newoffset). The offset refers to uncoded characters.  
+  (object, newoffset). The offset refers to uncoded characters.
 }
 \usage{
 NgetIntermediateResultsNonBlocking(obj, offset = NULL,

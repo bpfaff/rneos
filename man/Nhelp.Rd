@@ -1,12 +1,12 @@
 \name{Nhelp}
 \alias{Nhelp}
 \title{
-  XML-RPC method help of Neos 
+  XML-RPC method help of Neos
 }
 
 \description{
   This functions calls the XML-RPC method \dQuote{help()} of NEOS and
-  returns an object of class \code{NeosAns}. 
+  returns an object of class \code{NeosAns}.
 }
 
 \usage{
@@ -37,7 +37,7 @@ Nhelp(convert = TRUE, nc = CreateNeosComm())
 }
 
 \seealso{
-  \code{\linkS4class{NeosAns}} and \code{\link{CreateNeosComm}} 
+  \code{\linkS4class{NeosAns}} and \code{\link{CreateNeosComm}}
 }
 
 \examples{

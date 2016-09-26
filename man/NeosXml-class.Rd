@@ -7,7 +7,7 @@
 \title{Class "NeosXml"}
 \description{
   Objects of this class contain the returned results from NEOS as well
-  as information on which kind of query has been sent and how it was sent. 
+  as information on which kind of query has been sent and how it was sent.
 }
 
 \section{Objects from the Class}{
@@ -30,7 +30,7 @@ or more conveniently by calling the relevant R API functions.
 \section{Methods}{
   \describe{
     \item{show}{\code{signature(object = "NeosXml")}: Returns the
-  converted slot \code{xml} from an object of class \code{NeosXml}.} 
+  converted slot \code{xml} from an object of class \code{NeosXml}.}
   }
 }
 

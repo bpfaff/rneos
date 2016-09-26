@@ -1,7 +1,7 @@
 \name{NgetIntermediateResults}
 \alias{NgetIntermediateResults}
 \title{
-  XML-RPC method getIntermediateResults of Neos 
+  XML-RPC method getIntermediateResults of Neos
 }
 \description{
   This functions calls the XML-RPC method \dQuote{getIntermediateResults()} of
@@ -12,7 +12,7 @@
   hang until another packet of output is sent to NEOS or the job is
   finished. This function will return a tuple of thebase-64 encoded
   object and the new offset (object, newoffset). The offset refers to
-  uncoded characters.  
+  uncoded characters.
 }
 \usage{
 NgetIntermediateResults(obj, offset = NULL, convert = TRUE)

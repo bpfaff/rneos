@@ -37,4 +37,3 @@ exportClasses(NeosComm, NeosAns, NeosXml, NeosJob, NeosOff)
 ## Export of S4-methods
 ##
 exportMethods(show, update)
-

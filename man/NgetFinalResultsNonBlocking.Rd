@@ -1,7 +1,7 @@
 \name{NgetFinalResultsNonBlocking}
 \alias{NgetFinalResultsNonBlocking}
 \title{
-  XML-RPC method getFinalResultsNonBlocking of Neos 
+  XML-RPC method getFinalResultsNonBlocking of Neos
 }
 \description{
   This functions calls the XML-RPC method
@@ -11,7 +11,7 @@
 }
 
 \usage{
-NgetFinalResultsNonBlocking(obj, convert = TRUE) 
+NgetFinalResultsNonBlocking(obj, convert = TRUE)
 }
 
 \arguments{

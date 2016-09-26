@@ -1,14 +1,14 @@
 \name{NlistSolversInCategory}
 \alias{NlistSolversInCategory}
 \title{
-  XML-RPC method listSolversInCategory of Neos 
+  XML-RPC method listSolversInCategory of Neos
 }
 \description{
   This functions calls the XML-RPC method
   \dQuote{listSolversInCategory()} of NEOS and returns an object of
   class \code{NeosAns}. The returned content is a list of solver:input
   for every solver in the category (category can be abbreviation or
-  full\_name).  
+  full\_name).
 }
 \usage{
 NlistSolversInCategory(category, convert = TRUE,
@@ -41,7 +41,7 @@ NlistSolversInCategory(category, convert = TRUE,
 
 \seealso{
   \code{\linkS4class{NeosAns}}, \code{\link{NlistCategories}} and
-  \code{\link{CreateNeosComm}}  
+  \code{\link{CreateNeosComm}}
 }
 
 \examples{

@@ -8,13 +8,13 @@
 \description{
   Objects of this class contain among other slots the returned jobnumber
   and password for jobs submitted to NEOS. Objects of this class can
-  then be used for retrieving the optimization results. 
+  then be used for retrieving the optimization results.
 }
 
 \section{Objects from the Class}{
 Objects can be created by calls of the form \code{new("NeosJob", ...)}
 or more conveniently by calling the relevant R API function
-\code{NsubmitJob}. 
+\code{NsubmitJob}.
 }
 \section{Slots}{
   \describe{
@@ -27,7 +27,7 @@ or more conveniently by calling the relevant R API function
     \item{\code{call}:}{Object of class \code{"call"}:
       The call to the generating function of the object.}
     \item{\code{nc}:}{Object of class \code{"NeosComm"}:
-      The NeosComm object that has been used in the request to NEOS.} 
+      The NeosComm object that has been used in the request to NEOS.}
   }
 }
 
@@ -35,7 +35,7 @@ or more conveniently by calling the relevant R API function
   \describe{
     \item{show}{\code{signature(object = "NeosJob")}: Displays the slots
   \code{jobnumber} and \code{password} from an object of class
-  \code{NeosJob}.}  
+  \code{NeosJob}.}
   }
 }
 

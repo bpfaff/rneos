@@ -1,13 +1,13 @@
 \name{Nversion}
 \alias{Nversion}
 \title{
-  XML-RPC method version of Neos 
+  XML-RPC method version of Neos
 }
 
 \description{
-  This functions calls the XML-RPC method \dQuote{version()} of NEOS and 
+  This functions calls the XML-RPC method \dQuote{version()} of NEOS and
   returns an object of class \code{NeosAns}, which is a string
-  containing the version number of the NEOS server. 
+  containing the version number of the NEOS server.
 }
 
 \usage{
@@ -38,7 +38,7 @@ Nversion(convert = TRUE, nc = CreateNeosComm())
 }
 
 \seealso{
-  \code{\linkS4class{NeosAns}} and \code{\link{CreateNeosComm}} 
+  \code{\linkS4class{NeosAns}} and \code{\link{CreateNeosComm}}
 }
 
 \examples{
